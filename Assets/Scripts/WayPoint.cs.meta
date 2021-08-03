@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2d9658bd1bb159643bd1f2cbbc7f93c3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - towerprefab: {fileID: 3848648114270732445, guid: 8a965e088bae16643aab3d07ccfd5e2e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
