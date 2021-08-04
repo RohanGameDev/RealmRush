@@ -390,3 +390,12 @@ System memory in use after: 76.6 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1930.
 Total: 3.026900 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.057600 ms MarkObjects: 2.619500 ms  DeleteObjects: 0.107500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1026.128525 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad18f9fdf4275c49675755b545a9d90') in 0.086547 seconds
+  Import took 0.270131 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
