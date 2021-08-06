@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -15,8 +13,10 @@ public class Bank : MonoBehaviour
     void Awake()
     {
         currentBalance = startingBalance;
-        updateDisplay();    
+        updateDisplay();
+
     }
+
 
     public void Deposit(int amount)
     {
@@ -28,15 +28,17 @@ public class Bank : MonoBehaviour
     {
         currentBalance -= Mathf.Abs(amount);
         updateDisplay();
-        if (currentBalance < 0)
+        if (currentBalance <= 0)
         {
             ReloadScence();
+
         }
     }
 
     void updateDisplay()
     {
         displayBalance.text = "Gold:" + currentBalance;
+        FindObjectOfType<GameManager>().NextLevel();
     }
 
     void ReloadScence()
@@ -44,5 +46,6 @@ public class Bank : MonoBehaviour
         Scene currentscene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentscene.buildIndex);
     }
+
 
 }

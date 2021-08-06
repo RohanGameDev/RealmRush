@@ -156,8 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66af933b1c320c743b0718c73d92b583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldReward: 50
-  goldPenalty: 25
+  goldReward: 100
+  goldPenalty: 50
 --- !u!65 &6837324310623250714
 BoxCollider:
   m_ObjectHideFlags: 0

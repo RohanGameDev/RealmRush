@@ -6,7 +6,6 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] int goldReward = 25;
     [SerializeField] int goldPenalty = 25;
-
     Bank bank;
     // Start is called before the first frame update
     void Start()
