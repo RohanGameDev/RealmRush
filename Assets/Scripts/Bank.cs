@@ -30,7 +30,7 @@ public class Bank : MonoBehaviour
         updateDisplay();
         if (currentBalance <= 0)
         {
-            ReloadScence();
+            Invoke("ReloadScence",1f);
 
         }
     }
@@ -44,7 +44,7 @@ public class Bank : MonoBehaviour
     void ReloadScence()
     {
         Scene currentscene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentscene.buildIndex);
+        SceneManager.LoadScene("LoseScreen");
     }
 
 

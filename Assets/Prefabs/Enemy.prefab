@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goldReward: 100
-  goldPenalty: 50
+  goldPenalty: 100
 --- !u!65 &6837324310623250714
 BoxCollider:
   m_ObjectHideFlags: 0
