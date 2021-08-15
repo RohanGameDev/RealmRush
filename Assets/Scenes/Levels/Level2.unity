@@ -4845,6 +4845,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 825d3871557815649b3d2fd1d25acc80, type: 3}
+--- !u!114 &385801115 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4561962674325463211, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
+  m_PrefabInstance: {fileID: 5717373933498222033}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &392551080 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5550224700972350736, guid: 825d3871557815649b3d2fd1d25acc80, type: 3}
@@ -30119,7 +30130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3562770400405649909, guid: 3abd2d524d4def04d98ba78a38eb2e9e, type: 3}
       propertyPath: spawnTimer
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3abd2d524d4def04d98ba78a38eb2e9e, type: 3}
@@ -30179,8 +30190,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1865226326}
     - target: {fileID: 3908427677500351225, guid: d5d7fe4c3b33d3f41841cd3891702020, type: 3}
+      propertyPath: warningMessage
+      value: 
+      objectReference: {fileID: 385801115}
+    - target: {fileID: 3908427677500351225, guid: d5d7fe4c3b33d3f41841cd3891702020, type: 3}
       propertyPath: startingBalance
-      value: 400
+      value: 260
       objectReference: {fileID: 0}
     - target: {fileID: 3908427677500351226, guid: d5d7fe4c3b33d3f41841cd3891702020, type: 3}
       propertyPath: m_Name
@@ -30309,6 +30324,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Level 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6866422233011425109, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7202658544340652053, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
       propertyPath: m_Name
       value: Level2
@@ -30319,6 +30338,14 @@ PrefabInstance:
 
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8161145317125438503, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -227.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8161145317125438503, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}

@@ -7,14 +7,14 @@ public class Bank : MonoBehaviour
     [SerializeField] int startingBalance = 150;
     [SerializeField] int currentBalance;
     [SerializeField] TextMeshProUGUI displayBalance;
-
+    [SerializeField] TextMeshProUGUI warningMessage;
 
     public int CurrentBalance { get { return currentBalance; } }
     void Awake()
     {
         currentBalance = startingBalance;
         updateDisplay();
-
+        warningMessage.gameObject.SetActive(false);
     }
 
 
@@ -30,7 +30,7 @@ public class Bank : MonoBehaviour
         updateDisplay();
         if (currentBalance <= 0)
         {
-            Invoke("ReloadScence",1f);
+            Invoke("ReloadScence", 1f);
 
         }
     }
@@ -39,6 +39,15 @@ public class Bank : MonoBehaviour
     {
         displayBalance.text = "Gold:" + currentBalance;
         FindObjectOfType<GameManager>().NextLevel();
+
+        if (currentBalance <= 100)
+        {
+            warningMessage.gameObject.SetActive(true);
+        }
+        else
+        {
+            warningMessage.gameObject.SetActive(false);
+        }
     }
 
     void ReloadScence()
@@ -46,6 +55,8 @@ public class Bank : MonoBehaviour
         Scene currentscene = SceneManager.GetActiveScene();
         SceneManager.LoadScene("LoseScreen");
     }
+
+
 
 
 }

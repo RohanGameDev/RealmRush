@@ -3036,6 +3036,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 825d3871557815649b3d2fd1d25acc80, type: 3}
+--- !u!114 &277610959 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4561962674325463211, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
+  m_PrefabInstance: {fileID: 5717373933498222033}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &277663507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5546930582290887312, guid: 2ac0c6db1dde87f409950f15bc955673, type: 3}
@@ -19548,8 +19559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb149d266d9b8fc408b9205b1f381a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!114 &2091014318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20281,8 +20290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb149d266d9b8fc408b9205b1f381a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!114 &959919377705316078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20295,8 +20302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb149d266d9b8fc408b9205b1f381a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!114 &959919378136359226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20309,8 +20314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb149d266d9b8fc408b9205b1f381a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!114 &959919379099787936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20323,8 +20326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb149d266d9b8fc408b9205b1f381a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!224 &1022540247943769243
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21024,6 +21025,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3562770400405649909, guid: 3abd2d524d4def04d98ba78a38eb2e9e, type: 3}
+      propertyPath: spawnTimer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3abd2d524d4def04d98ba78a38eb2e9e, type: 3}
 --- !u!1001 &3908427677234293243
@@ -21082,8 +21087,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1865226326}
     - target: {fileID: 3908427677500351225, guid: d5d7fe4c3b33d3f41841cd3891702020, type: 3}
+      propertyPath: warningMessage
+      value: 
+      objectReference: {fileID: 277610959}
+    - target: {fileID: 3908427677500351225, guid: d5d7fe4c3b33d3f41841cd3891702020, type: 3}
       propertyPath: startingBalance
-      value: 300
+      value: 310
       objectReference: {fileID: 0}
     - target: {fileID: 3908427677500351226, guid: d5d7fe4c3b33d3f41841cd3891702020, type: 3}
       propertyPath: m_Name
@@ -21353,6 +21362,17 @@ PrefabInstance:
     - target: {fileID: 5717373932126003197, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088210488930321117, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
+      propertyPath: m_text
+      value: Level 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796862211372052427, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
+      propertyPath: m_text
+      value: 'Goal : 700
+
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c58858473a6f3f449941eb4d00df8ea, type: 3}
